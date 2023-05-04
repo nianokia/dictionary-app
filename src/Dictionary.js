@@ -1,22 +1,26 @@
 import React, { useState } from "react";
 import axios from "axios";
+import Results from "./Results";
 import "./Dictionary.css";
 
 export default function Dictionary() {
   let [query, setQuery] = useState(null);
+  let [results, setResults] = useState(null);
 
   function updateQuery(event) {
     setQuery(event.target.value);
   }
 
-  function handleSubmit(response) {
-    console.log(response.data);
+  function handleResponse(response) {
+    setResults(response.data[0]);
   }
 
   function search(event) {
     event.preventDefault();
+
+    // documentation: https://dictionaryapi.dev/
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${query}`;
-    axios.get(apiUrl).then(handleSubmit);
+    axios.get(apiUrl).then(handleResponse);
   }
 
   return (
@@ -28,6 +32,7 @@ export default function Dictionary() {
           onChange={updateQuery}
         />
       </form>
+      <Results results={results} />
     </div>
   );
 }
