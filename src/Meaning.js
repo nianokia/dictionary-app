@@ -7,13 +7,14 @@ export default function Meaning(props) {
       <ul>
         {props.meaning.definitions.map((definitions, index) => {
           return (
-            <li key={index}>
-              <div>
+            <ul key={index}>
+              <li>
                 {definitions.definition}
-                <br />
-                <em>{definitions.example}</em>
-              </div>
-            </li>
+                <div className="example">
+                  <em>{definitions.example}</em>
+                </div>
+              </li>
+            </ul>
           );
         })}
       </ul>
