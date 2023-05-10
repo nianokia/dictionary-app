@@ -6,3 +6,20 @@
 .Meaning .example {
   color: cornflowerblue;
 }
+
+.Phonetic button {
+  padding: 2px 7px;
+  margin-top: 5px;
+  margin-right: 10px;
+  color: white;
+  background: cornflowerblue;
+  border: 1px solid cornflowerblue;
+  border-radius: 30px;
+  transition: all 150ms ease-in-out;
+}
+
+.Phonetic button:hover {
+  color: cornflowerblue;
+  background: aliceblue;
+  border: 1px solid cornflowerblue;
+}
