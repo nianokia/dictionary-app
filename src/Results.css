@@ -1,5 +1,5 @@
 .Results h2 {
-  font-size: 30px;
+  font-size: 36px;
   line-height: 1.5;
   margin-top: -5px;
 }
@@ -10,7 +10,9 @@
 }
 
 .Meaning .example {
-  color: cornflowerblue;
+  margin-left: 12px;
+  opacity: 0.65;
+  font-style: italic;
 }
 
 .Phonetic {
@@ -20,7 +22,7 @@
 .Phonetic button {
   padding: 2px 7px;
   margin-top: 5px;
-  margin-right: 10px;
+
   color: white;
   background: cornflowerblue;
   border: 1px solid cornflowerblue;
@@ -32,4 +34,23 @@
   color: cornflowerblue;
   background: aliceblue;
   border: 1px solid cornflowerblue;
+}
+
+.Phonetic .phoneticText {
+  font-size: 15px;
+  margin-left: 12px;
+  opacity: 0.6;
+  font-weight: bold;
+}
+
+.Synonyms {
+  color: teal;
+  font-size: 14px;
+  margin-left: 12px;
+}
+
+.Synonyms .synonym {
+  display: inline-block;
+  font-weight: 600;
+  padding-right: 10px;
 }
