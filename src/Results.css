@@ -9,6 +9,14 @@
   margin-left: 8px;
 }
 
+.Meaning .allMeanings {
+  margin-left: 12px;
+}
+
+.Meaning .individualMeanings {
+  margin: 10px 0;
+}
+
 .Meaning .example {
   margin-left: 12px;
   opacity: 0.65;
@@ -16,13 +24,13 @@
 }
 
 .Phonetic {
+  display: inline-block;
   margin-right: 25px;
 }
 
 .Phonetic button {
   padding: 2px 7px;
   margin-top: 5px;
-
   color: white;
   background: cornflowerblue;
   border: 1px solid cornflowerblue;

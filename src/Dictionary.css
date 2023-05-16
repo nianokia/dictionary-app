@@ -6,8 +6,15 @@
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
+.Dictionary h1 {
+  font-size: 20px;
+  margin-bottom: 18px;
+  font-weight: bold;
+}
+
 .Dictionary input {
   width: 100%;
+  color: #333;
   padding: 6px 10px;
   border: 1px solid #ddd;
   border-radius: 8px;
