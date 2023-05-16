@@ -1,0 +1,11 @@
+.Synonyms {
+  color: rgb(116, 127, 110);
+  font-size: 14px;
+  margin-left: 12px;
+}
+
+.Synonyms .synonym {
+  display: inline-block;
+  font-weight: 600;
+  padding-right: 20px;
+}

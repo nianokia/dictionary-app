@@ -2,63 +2,9 @@
   font-size: 36px;
   line-height: 1.5;
   margin-top: -5px;
+  margin-left: 10px;
 }
 
-.Results h5 {
-  margin-top: -8px;
-  margin-left: 8px;
-}
-
-.Meaning .allMeanings {
-  margin-left: 12px;
-}
-
-.Meaning .individualMeanings {
-  margin: 10px 0;
-}
-
-.Meaning .example {
-  margin-left: 12px;
-  opacity: 0.65;
-  font-style: italic;
-}
-
-.Phonetic {
-  display: inline-block;
-  margin-right: 25px;
-}
-
-.Phonetic button {
-  padding: 2px 7px;
-  margin-top: 5px;
-  color: var(--background-color);
-  background: var(--secondary-color);
-  border: 1px solid var(--background-color);
-  border-radius: 30px;
-  transition: all 150ms ease-in-out;
-}
-
-.Phonetic button:hover {
-  color: var(--secondary-color);
-  background: var(--background-color);
-  border: 1px solid var(--accent-color);
-}
-
-.Phonetic .phoneticText {
-  font-size: 15px;
-  margin-left: 12px;
-  opacity: 0.6;
-  font-weight: bold;
-}
-
-.Synonyms {
-  color: var(--primary-color);
-  font-size: 14px;
-  margin-left: 12px;
-}
-
-.Synonyms .synonym {
-  display: inline-block;
-  font-weight: 600;
-  padding-right: 10px;
+.Results .phoneticContainer {
+  margin-left: 10px;
 }
