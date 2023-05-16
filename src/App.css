@@ -1,13 +1,29 @@
+:root {
+  --background-color: rgb(159, 135, 114);
+  --primary-color: rgb(102, 90, 72);
+  --secondary-color: rgb(200, 219, 190);
+  --accent-color: rgb(237, 228, 224);
+}
+
 .App .container {
   margin: 30px auto;
   max-width: 760px;
 }
 
 .App header {
+  color: var(--accent-color);
   margin-bottom: 30px;
 }
 
 .App footer {
   text-align: center;
   margin: 30px 0;
+}
+
+.App footer a {
+  color: var(--accent-color);
+}
+
+.App footer a:visited {
+  color: var(--secondary-color);
 }

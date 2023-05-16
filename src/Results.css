@@ -31,17 +31,17 @@
 .Phonetic button {
   padding: 2px 7px;
   margin-top: 5px;
-  color: white;
-  background: cornflowerblue;
-  border: 1px solid cornflowerblue;
+  color: var(--background-color);
+  background: var(--secondary-color);
+  border: 1px solid var(--background-color);
   border-radius: 30px;
   transition: all 150ms ease-in-out;
 }
 
 .Phonetic button:hover {
-  color: cornflowerblue;
-  background: aliceblue;
-  border: 1px solid cornflowerblue;
+  color: var(--secondary-color);
+  background: var(--background-color);
+  border: 1px solid var(--accent-color);
 }
 
 .Phonetic .phoneticText {
@@ -52,7 +52,7 @@
 }
 
 .Synonyms {
-  color: teal;
+  color: var(--primary-color);
   font-size: 14px;
   margin-left: 12px;
 }
