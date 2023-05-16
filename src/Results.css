@@ -1,3 +1,9 @@
+.Results h2 {
+  font-size: 30px;
+  line-height: 1.5;
+  margin-top: -5px;
+}
+
 .Results h5 {
   margin-top: -8px;
   margin-left: 8px;
@@ -5,6 +11,10 @@
 
 .Meaning .example {
   color: cornflowerblue;
+}
+
+.Phonetic {
+  margin-right: 25px;
 }
 
 .Phonetic button {

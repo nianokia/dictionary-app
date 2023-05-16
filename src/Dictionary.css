@@ -1,3 +1,13 @@
-.Dictionary form {
-  margin: 10px 0;
+.Dictionary section {
+  background: lightsteelblue;
+  padding: 20px 15px;
+  border-radius: 8px;
+  margin: 5px 0;
+}
+
+.Dictionary input {
+  width: 100%;
+  padding: 6px 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
 }
