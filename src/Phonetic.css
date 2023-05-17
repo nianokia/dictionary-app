@@ -19,9 +19,12 @@
   border: 1px solid var(--accent-color);
 }
 
+.Phonetic .audio {
+  margin-right: 12px;
+}
+
 .Phonetic .phoneticText {
   font-size: 15px;
-  margin-left: 12px;
   opacity: 0.6;
   font-weight: bold;
 }

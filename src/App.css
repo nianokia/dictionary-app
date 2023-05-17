@@ -21,12 +21,12 @@
 
 .App header {
   color: var(--accent-color);
-  margin-bottom: 25px;
+  margin-bottom: 30px;
   font-family: var(--heading-font-family);
 }
 
 .App h1 {
-  font-size: 50px;
+  font-size: 56px;
 }
 
 .App footer {
