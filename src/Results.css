@@ -3,8 +3,17 @@
   line-height: 1.5;
   margin-top: -5px;
   margin-left: 10px;
+  word-wrap: break-word;
+  hyphens: auto;
 }
 
 .Results .phoneticContainer {
   margin-left: 10px;
+}
+
+@media (max-width: 575px) {
+  .Results h2 {
+    font-size: 32px;
+    margin-left: 0px;
+  }
 }
