@@ -10,7 +10,7 @@ export default function App() {
           <h1>Dictionary</h1>
         </header>
         <main>
-          <Dictionary defaultQuery="yak" />
+          <Dictionary defaultQuery="croissant" />
         </main>
         <footer>
           This app was coded by{" "}
